@@ -1,0 +1,28 @@
+*{
+padding: 0;
+
+}
+div{
+    width: 10%;
+    height: 10%;
+    margin: 4% auto;
+    animation:gravity 1s infinite alternate ease-in;
+}
+div img{
+    width: 70%;
+    animation:rotate 3s infinite linear ;
+}
+
+@keyframes gravity{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(450px);
+    }
+}
+@keyframes rotate{
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
