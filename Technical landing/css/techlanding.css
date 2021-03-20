@@ -1,0 +1,30 @@
+html{
+    height: 100%;
+}
+.navbar-expand-lg .navbar-brand{
+    color: orangered;
+}
+
+
+
+
+
+body{
+    background: url(https://images.unsplash.com/photo-1531535701800-03b2bec4fbfd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGRldmVsb3BlcnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+    font-family: catamaran;
+}
+
+.bg-light {
+    background-color: palegreen !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.container{
+    text-align: center;
+    padding-top: 15%;
+        
+
