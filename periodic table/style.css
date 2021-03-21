@@ -18,13 +18,13 @@
 }
 
 
-/*  Styles*/
+/*  Styles----------------------------*/
 
 body {
   font-family: Arial;
   .transform(translateZ(0));
     
-/*  prevent flashing*/
+/*  prevent flashing--------------------*/
 }
 
 .periodic {
@@ -252,7 +252,7 @@ background-color: rgba(0, 160, 96, 0.6);
   }
 }
 
-/* large screen*/
+/* large screen------------------*/
 
 @media (min-width: 1200px) {
   .periodic {
