@@ -5,7 +5,7 @@ div{
     border-top:10px solid tomato;
     border-bottom: 10px solid yellowgreen;
     border-radius: 50%;
-    animation:spin 200ms infinite linear;
+    animation:spin 400ms infinite linear;
 
 }
 
