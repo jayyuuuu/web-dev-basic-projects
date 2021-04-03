@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     border-radius: 0 0 500px 0;
 }
-// navegation Bar
+/* navegation Bar*/
 
 .nav{
     width:90%;
@@ -45,7 +45,7 @@
     margin-left: 20px;
 }
 
-//Menu
+/*Menu*/
 
 
 .menu{
@@ -130,6 +130,7 @@
 }
 .us1 {
     display: flex;
+    text-align: center;
     flex-direction: column;
 }
 .us1 span{
