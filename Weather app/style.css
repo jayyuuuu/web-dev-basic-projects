@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: url(https://images.unsplash.com/photo-1586603691481-61c5a0b9f86a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#search{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 15px 15px;
+     /* border: 2px solid black; */
+}
+
+.search-box{
+    color: orange;
+    width: 100%;
+    max-width: 320px;
+    outline: none;
+    padding: 15px 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.2s ease;
+  }
+
+main {
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#city{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 8px 6px black;
+}
+#date{
+    color:rgb(243, 182, 158);
+    font-size: 20px;
+    text-shadow: 2px 8px 6px black;
+}
+
+#temp{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 10px 5px black;
+}
+#weather{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 8px 6px black;
+
+}
+
+#min-max{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 8px 6px black;
+}
+
+section{
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.extra-info{
+    width: 250px;
+    padding: 5px;
+    text-shadow: 2px 8px 6px black;
+    /* border: 4px solid black; */
+}
+.wind{
+    /* background-color:rgb(199, 122, 91); */
+
+    width: 250px;
+    margin-top:0 ;
+    text-shadow: 2px 8px 6px black;
+    /* border: 4px solid black; */
+    /* margin-left:35%; */
+}
