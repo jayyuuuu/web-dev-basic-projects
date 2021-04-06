@@ -23,14 +23,15 @@ body{
 }
 
 .search-box{
-    color: black;
-    font-size: 15px;
+    color:rgb(240, 167, 138);
+    background-color:rgba(54, 54, 54, 0.733);
+    font-size: 17px;
     width: 100%;
     max-width: 320px;
     outline: none;
-    padding: 15px 15px;
+    padding: 13px 15px;
     border-radius: 35px 0px 35px 0px;
-    border: 5px solid rgb(58, 56, 52);
+    border: 5px solid rgb(216, 203, 180);
     transition: 0.2s ease;
     box-shadow: 12px 14px 15px black;
 
@@ -117,7 +118,7 @@ section{
 footer{
     display: flex;
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
 }
 
 .social{
@@ -143,9 +144,11 @@ footer{
 }
 
 .logo{
+    margin-top: 0;
+    padding-top: 0;
     display: flex;
     position: absolute;
     left: 2vw;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 35px;
 }
